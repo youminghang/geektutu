@@ -1,8 +1,8 @@
 package geecache
 
 import (
+	"geecache/lru"
 	"sync"
-	"workspace/golang/src/github.com/youminghang/geektutu/gee-cache/lru"
 )
 
 type cache struct {
